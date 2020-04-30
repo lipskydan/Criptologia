@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb4a7fc6-9534-414b-b14f-f413355227a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZNv28SAdp0pvqFnECGHf7BLJvk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.tests" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ElgamalTest.decryption">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="lab3" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElgamalTest.decryption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.ElgamalTest" />
+      <option name="METHOD_NAME" value="decryption" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElgamalTest.encryption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.ElgamalTest" />
+      <option name="METHOD_NAME" value="encryption" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElgamalTest.generKeys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.ElgamalTest" />
+      <option name="METHOD_NAME" value="generKeys" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ElgamalTest.decryption" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ElgamalTest.encryption" />
+        <item itemvalue="JUnit.ElgamalTest.generKeys" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb4a7fc6-9534-414b-b14f-f413355227a9" name="Default Changelist" comment="" />
+      <created>1584692155520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584692155520</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="723" y="334" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584711261602">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="723" y="334" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog/70.27.1850.1053/206.1080.1366.768@70.27.1850.1053" timestamp="1584711261602" />
+    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1584700299795">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="778" y="311" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053/206.1080.1366.768@70.27.1850.1053" timestamp="1584700299795" />
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom" timestamp="1584713069349">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053/206.1080.1366.768@70.27.1850.1053" timestamp="1584713069349" />
+    <state width="1804" height="275" key="GridCell.Tab.0.center" timestamp="1584713069349">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.center/70.27.1850.1053/206.1080.1366.768@70.27.1850.1053" timestamp="1584713069349" />
+    <state width="1804" height="275" key="GridCell.Tab.0.left" timestamp="1584713069348">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.left/70.27.1850.1053/206.1080.1366.768@70.27.1850.1053" timestamp="1584713069348" />
+    <state width="1804" height="275" key="GridCell.Tab.0.right" timestamp="1584713069349">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="275" key="GridCell.Tab.0.right/70.27.1850.1053/206.1080.1366.768@70.27.1850.1053" timestamp="1584713069349" />
+    <state x="667" y="449" width="646" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584711284951">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="667" y="449" width="646" height="231" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/70.27.1850.1053/206.1080.1366.768@70.27.1850.1053" timestamp="1584711284951" />
+    <state x="769" y="270" width="442" height="573" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584711263047">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="769" y="270" width="442" height="573" key="com.intellij.testIntegration.createTest.CreateTestDialog/70.27.1850.1053/206.1080.1366.768@70.27.1850.1053" timestamp="1584711263047" />
+  </component>
+</project>
