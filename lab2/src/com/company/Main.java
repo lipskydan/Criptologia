@@ -1,6 +1,4 @@
 package com.company;
-// AMOGH LALE
-//alale1@binghamton.edu
 
 import java.util.Scanner;
 import java.io.BufferedReader;
