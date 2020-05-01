@@ -6,7 +6,7 @@ import java.math.BigInteger;
 
 /**
  *
- * El Gamal
+ * El Gamal algorithm
  *
  * Generating of key
  *  1. generate random simple number p
