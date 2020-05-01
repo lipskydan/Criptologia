@@ -1,21 +1,34 @@
 package algorithm;
 
-import java.io.IOException;
 import java.security.SecureRandom;
 import java.util.*;
 import java.math.BigInteger;
 
 /**
  *
+ * El Gamal
  *
+ * Generating of key
+ *  1. generate random simple number p
+ *  2. choose integer number g, g is antiderivative root of p
+ *  3. choose number x , 1 < x < p-1
+ *  4. y = g^x mod p - public key
+ *  5. x - private key
+ *
+ * Encryption
+ *  1. choose session key k, 1 < k < p-1
+ *  2. Pair (a,b) is a encryption text
+ *     a = g^k mod p
+ *     b = (y^k * M) mod p
+ *
+ * Decryption
+ *  M = (b*a^(p-1-x)) mod p
  *
  */
 
 public class ElGamal {
 
-    static BigInteger p;
-    static BigInteger g;
-    static BigInteger y;
+    static BigInteger p, g, y;
     static BigInteger a, b, k, EC, M;
     static BigInteger secretKey = new BigInteger("1234");;
     static Random sc = new SecureRandom();
