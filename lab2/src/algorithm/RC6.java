@@ -8,6 +8,33 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ *
+ * https://uk.wikipedia.org/wiki/RC6
+ *
+ * Details of RC6
+ *  W is the length of the machine word in bits.
+ *  R is the number of rounds.
+ *  B is the length of the key in bytes.
+ *
+ * Key extension
+ *  Input: the user-specified B-bit key is pre-converted to an array of words L[0,...,c-1].
+ *         R is a quantity of rounds.
+ *  Output: W-bit key table S[0,...,2*r+3].
+ *
+ * Encryption
+ *  Input: R is a quantity of rounds.
+ *         W-bit key for each rounds S[0,...,2*r+3].
+ *  Output: encrypted text is stored in A, B, C, D.
+ *
+ * Decryption
+ *  Input: encrypted text which stored in A, B, C, D.
+ *         R is a quantity of rounds.
+ *         W-bit key for each rounds S[0,...,2*r+3].
+ *  Output: output text saved in A, B, C, D.
+ *
+ */
+
 public class RC6 {
 
     public static String text = "";
@@ -15,7 +42,7 @@ public class RC6 {
     public static String decrypted_text = "";
 
     public static void run() {
-        runEncyption();
+        runEncryption();
         runDecryption();
     }
 
@@ -88,7 +115,7 @@ public class RC6 {
         return (val >>> pas) | (val << (32 - pas));
     }
 
-    // Процедура розширення ключа
+    // KEY EXTENSION
     private static int[] keySchedule(byte[] key) {
         int[] S = new int[2 * r + 4];
         S[0] = Pw;
@@ -115,7 +142,7 @@ public class RC6 {
         }
         return S;
     }
-    // Шифрування
+    // ENCRYPTION
     private static byte[] encryption(byte[] keySchArray) {
         int temp, t, u;
         int[] temp_data = new int[keySchArray.length / 4];
@@ -161,7 +188,7 @@ public class RC6 {
         outputArr = convertIntToByte(temp_data, keySchArray.length);
         return outputArr;
     }
-    //Розшифрування
+    //DECRYPTION
     private static byte[] decryption(byte[] keySchArray) {
 
 
@@ -218,8 +245,8 @@ public class RC6 {
 
         return outputArr;
     }
-
-    private static String runEncyption(){
+    
+    private static String runEncryption(){
         String tempString;
         String given_text;
         String key_value;
@@ -274,7 +301,6 @@ public class RC6 {
         encrypted_text = encrypted_text.replace(" ", "");
         return encrypted_text;
     }
-
     private static String runDecryption(){
         String tempString;
         String given_text;
@@ -334,12 +360,3 @@ public class RC6 {
     }
 
 }
-
-/*
-Encryption
-plaintext:02 13 24 35 46 57 68 79 8a 9b ac bd ce df e0 f1
-userkey: 01 23 45 67 89 ab cd ef 01 12 23 34 45 56 67 78 89 9a ab bc cd de ef f0 10 32 54 76 98 ba dc fe
-
-c8 24 18 16 f0 d7 e4 89 20 ad 16 a1 67 4e 5d 48
-
- */
